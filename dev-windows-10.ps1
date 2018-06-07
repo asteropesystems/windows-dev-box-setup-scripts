@@ -20,26 +20,6 @@ choco install -y 7zip.install
 
 #--- Windows Subsystems/Features ---
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
-choco install Microsoft-Windows-Subsystem-Linux -source windowsfeatures
-
-#--- Ubuntu ---
-# Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.appx -UseBasicParsing
-# Add-AppxPackage -Path ~/Ubuntu.appx
-
-<#
-#--- SLES ---
-# Install SLES Store app
-Invoke-WebRequest -Uri https://aka.ms/wsl-sles-12 -OutFile ~/SLES.appx -UseBasicParsing
-Add-AppxPackage -Path ~/SLES.appx
-# Launch SLES
-sles-12.exe
-
-# --- openSUSE ---
-Invoke-WebRequest -Uri https://aka.ms/wsl-opensuse-42 -OutFile ~/openSUSE.appx -UseBasicParsing
-Add-AppxPackage -Path ~/openSUSE.appx
-# Launch openSUSE
-opensuse-42.exe
-#>
 
 #--- Browsers ---
 choco install -y googlechrome
@@ -52,7 +32,6 @@ choco install -y inconsolata
 #--- Tools ---
 choco install -y sysinternals
 choco install -y docker-for-windows
-choco install -y python
 
 Enable-UAC
 Enable-MicrosoftUpdate
