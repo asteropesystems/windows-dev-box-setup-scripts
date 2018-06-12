@@ -32,6 +32,20 @@ choco install -y inconsolata
 #--- Tools ---
 choco install -y sysinternals
 choco install -y docker-for-windows
+choco install -y ccleaner
+choco install -y vlc
+choco install -y paint.net
+choco install -y sublimetext3
+choco install -y fiddler
+choco install -y windirstat
+choco install -y winmerge
+choco install -y linqpad4
+choco install -y nmap
+choco install -y speccy
+choco install -y imgburn
+choco install -y poweriso
+choco install -y makemkv
+choco install -y openlivewriter
 
 Enable-UAC
 Enable-MicrosoftUpdate
