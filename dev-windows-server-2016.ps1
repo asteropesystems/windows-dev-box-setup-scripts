@@ -17,6 +17,12 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 choco install -y googlechrome
 choco install -y firefox
 
+#--- Tools ---
+choco install -y ccleaner
+choco install -y sublimetext3
+choco install -y windirstat
+choco install -y speccy
+
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
