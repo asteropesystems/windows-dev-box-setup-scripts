@@ -1,5 +1,5 @@
 # Description: Boxstarter Script  
-# Author: Microsoft
+# Author: Garry Pilkington based off Microsoft scripts
 # Common dev settings for web dev
 
 Disable-UAC
