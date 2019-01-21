@@ -18,20 +18,12 @@ choco install -y vscode
 choco install -y git -params '"/GitAndUnixToolsOnPath /WindowsTerminal"'
 choco install -y 7zip.install
 
-#--- Windows Subsystems/Features ---
-choco install -y Microsoft-Hyper-V-All -source windowsFeatures
-
 #--- Browsers ---
 choco install -y googlechrome
 choco install -y firefox
 
-#--- Fonts ---
-choco install -y inconsolata
-# choco install -y ubuntu.font
-
 #--- Tools ---
 choco install -y sysinternals
-choco install -y docker-for-windows
 choco install -y ccleaner
 choco install -y vlc
 choco install -y paint.net
