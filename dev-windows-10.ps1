@@ -15,11 +15,9 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 
 #--- Tools ---
 choco install -y vscode
-choco install -y git -params '"/GitAndUnixToolsOnPath /WindowsTerminal"'
 choco install -y 7zip.install
 
 #--- Browsers ---
-choco install -y googlechrome
 choco install -y firefox
 
 #--- Tools ---
